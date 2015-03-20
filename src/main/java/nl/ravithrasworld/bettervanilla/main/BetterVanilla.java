@@ -14,7 +14,7 @@ import nl.ravithrasworld.bettervanilla.util.ConfigHelper;
 @Mod(modid = BetterVanilla.MODID, version = BetterVanilla.VERSION)
 public class BetterVanilla {
     public static final String MODID = "BetterVanilla";
-    public static final String VERSION = "1.0";
+    public static final String VERSION = "1.1";
     
     @EventHandler
     public void init(FMLInitializationEvent event) {
@@ -42,6 +42,10 @@ public class BetterVanilla {
 				new ItemStack(Items.string, 1),
 				new ItemStack(Items.dye, 1, 0),
 			});
+		}
+		
+		if (ConfigHelper.recipePackedIce) {
+			GameRegistry.addRecipe(new ItemStack(Blocks.packed_ice, 2), "II", "II", 'I', Blocks.ice);
 		}
 		
 		if (ConfigHelper.recipeChainArmor) {
