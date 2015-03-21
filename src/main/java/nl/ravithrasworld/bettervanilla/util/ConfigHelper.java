@@ -1,12 +1,5 @@
 package nl.ravithrasworld.bettervanilla.util;
 
-import java.util.ArrayList;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.crafting.CraftingManager;
-import net.minecraft.item.crafting.IRecipe;
-import net.minecraft.item.crafting.ShapedRecipes;
-import net.minecraft.item.crafting.ShapelessRecipes;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.config.Property;
 
@@ -30,6 +23,9 @@ public class ConfigHelper {
 	public static boolean recipeNameTag;
 	public static boolean recipeChainArmor;
 	public static boolean recipePackedIce;
+	public static boolean recipeSlab_Fullblock;
+	public static boolean cloneLily;
+	public static int randCloneLily;
 
 	private static Property recipeCobWebProp;
 	private static Property recipeHorseArmorProp;
@@ -37,6 +33,9 @@ public class ConfigHelper {
 	private static Property recipeNameTagProp;
 	private static Property recipeChainArmorProp;
 	private static Property recipePackedIceProp;
+	private static Property recipeSlab_FullblockProp;
+	private static Property cloneLilyProp;
+	private static Property randCloneLilyProp;
 
 	public static void setupConfig(Configuration cfg, Logger logger) {
 		try {
@@ -64,7 +63,15 @@ public class ConfigHelper {
 			
 			recipePackedIceProp = cfg.get("Recipes", "recipePackedIce", true);
 			recipePackedIce = recipePackedIceProp.getBoolean(true);
-
+			
+			recipeSlab_FullblockProp = cfg.get("Recipes", "recipeSlab_Fullblock", true);
+			recipeSlab_Fullblock = recipeSlab_FullblockProp.getBoolean(true);
+			
+			cloneLilyProp = cfg.get("Other", "cloneLilyPad", true);
+			cloneLily = cloneLilyProp.getBoolean(true);
+				
+			randCloneLilyProp = cfg.get("Other", "randomCloneLilyPad", 10);
+			randCloneLily = randCloneLilyProp.getInt(10);
 		} catch (Exception e) {
 			logger.log(Level.ERROR,
 					"An error occured loading BetterVanilla config!");
