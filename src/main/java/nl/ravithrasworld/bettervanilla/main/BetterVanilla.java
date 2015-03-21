@@ -16,7 +16,7 @@ import nl.ravithrasworld.bettervanilla.util.ConfigHelper;
 @Mod(modid = BetterVanilla.MODID, version = BetterVanilla.VERSION)
 public class BetterVanilla {
     public static final String MODID = "BetterVanilla";
-    public static final String VERSION = "1.1.1";
+    public static final String VERSION = "1.1.1.1";
     
     public static ClientProxy proxy = new ClientProxy();    
     
@@ -29,9 +29,9 @@ public class BetterVanilla {
 		}
     	
 		if (ConfigHelper.recipeHorseArmor) {
-			GameRegistry.addRecipe(new ItemStack(Items.iron_horse_armor), "III", "BSB", "III", 'I', Items.iron_ingot, 'B', Blocks.iron_block, 'S', Items.saddle);
-			GameRegistry.addRecipe(new ItemStack(Items.golden_horse_armor),	"III", "BSB", "III", 'I', Items.gold_ingot, 'B', Blocks.gold_block, 'S', Items.saddle);
-			GameRegistry.addRecipe(new ItemStack(Items.diamond_horse_armor), "III", "BSB", "III", 'I', Items.diamond, 'B', Blocks.diamond_block, 'S', Items.saddle);
+			GameRegistry.addRecipe(new ItemStack(Items.iron_horse_armor), " SI", "IIB", 'I', Items.iron_ingot, 'B', Blocks.iron_block, 'S', Items.saddle);
+			GameRegistry.addRecipe(new ItemStack(Items.golden_horse_armor), " SI", "IIB", 'I', Items.gold_ingot, 'B', Blocks.gold_block, 'S', Items.saddle);
+			GameRegistry.addRecipe(new ItemStack(Items.diamond_horse_armor), " SI", "IIB", 'I', Items.diamond, 'B', Blocks.diamond_block, 'S', Items.saddle);
 		}
     	
     	if (ConfigHelper.recipeSaddle) {
