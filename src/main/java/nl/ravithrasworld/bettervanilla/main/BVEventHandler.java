@@ -43,8 +43,8 @@ public class BVEventHandler {
 							break;
 						}
 					}					
-					event.setResult(Result.ALLOW);
 				}
+				event.setResult(Result.ALLOW);
 			}
 		}
 	}
