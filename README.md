@@ -1,4 +1,4 @@
-BetterVanilla
+General MineCraft Additions And Changes (GMCAAC)
 =============
 
 A minecraft mod that adds some things that should be in vanilla minecraft
