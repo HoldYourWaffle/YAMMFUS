@@ -1,10 +1,8 @@
-General MineCraft Additions And Changes (GMCAAC)
-=============
+#General MineCraft Additions And Changes (GMCAAC)
 
 A minecraft mod that adds some things that should be in vanilla minecraft
 
-Basic functions
-===============
+####Basic functions
 1. Recipe for saddle
 2. Recipes for horse armor
 3. Recipes for chain armor
@@ -14,6 +12,8 @@ Basic functions
 7. Turn 3 slabs back in 1 full block
 8. Emerald spawning in veins
 
-Recipes
-=======
-Coming soon!
+#####Comming
+1. The future
+
+####Recipes
+(Still) Coming soon!
