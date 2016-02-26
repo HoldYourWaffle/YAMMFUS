@@ -1,0 +1,5 @@
+A. Add recipes to readme
+B. Make recipes configurable
+C. Develop & test lillypad cloning further
+D. Shear chickens for feathers
+E. Editable signs
