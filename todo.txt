@@ -1,6 +1,0 @@
-• Add recipes to the Readme
-• Make recipes configurable
-• Develop&test lillypad cloning further
-
-• Shear chickens for feathers
-• Editable signs
