@@ -1,4 +1,4 @@
-#General MineCraft Additions And Changes (GMCAAC)
+#Yet Another Minecraft Mod For Uncraftable Stuff (YAMMFUS)
 
 A minecraft mod that adds some things that should be in vanilla minecraft
 
