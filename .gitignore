@@ -261,3 +261,6 @@ gradle/
 1.8.9/Paulscode SoundSystem CodecIBXM License.txt
 todo_dirt.txt
 DIRT
+buildMod.bat
+buildWorkspace.bat
+build-log.txt
