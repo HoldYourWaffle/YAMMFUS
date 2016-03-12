@@ -1,4 +1,6 @@
-package nl.ravithrasworld.bettervanilla.main;
+package info.zthings.yammfus.main;
+
+import info.zthings.yammfus.util.ConfigHelper;
 
 import java.util.Random;
 
@@ -7,9 +9,8 @@ import net.minecraft.util.BlockPos;
 import net.minecraftforge.event.entity.player.BonemealEvent;
 import net.minecraftforge.fml.common.eventhandler.Event.Result;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import nl.ravithrasworld.bettervanilla.util.ConfigHelper;
 
-public class BVEventHandler {
+public class YAEventHandler {
 	@SubscribeEvent
 	public void onBonemealUse(BonemealEvent event) {
 		if (ConfigHelper.cloneLily) {

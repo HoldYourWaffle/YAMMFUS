@@ -1,4 +1,4 @@
-package nl.ravithrasworld.bettervanilla.util;
+package info.zthings.yammfus.util;
 
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.config.Property;

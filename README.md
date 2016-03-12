@@ -1,6 +1,6 @@
 #Yet Another Minecraft Mod For Uncraftable Stuff (YAMMFUS)
 
-A minecraft mod that adds some things that should be in vanilla minecraft
+A minecraft mod that adds some things that should be in vanilla minecraft (not only recipes ;])
 
 ####Basic functions
 1. Recipe for saddle

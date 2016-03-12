@@ -1,4 +1,4 @@
-package nl.ravithrasworld.bettervanilla.proxy;
+package info.zthings.yammfus.proxy;
 
 public class CommonProxy {
 

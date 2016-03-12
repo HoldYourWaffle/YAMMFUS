@@ -1,5 +1,7 @@
-package nl.ravithrasworld.bettervanilla.main;
+package info.zthings.yammfus.main;
 
+import info.zthings.yammfus.proxy.ClientProxy;
+import info.zthings.yammfus.util.ConfigHelper;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -10,11 +12,9 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import nl.ravithrasworld.bettervanilla.proxy.ClientProxy;
-import nl.ravithrasworld.bettervanilla.util.ConfigHelper;
 
-@Mod(modid = BetterVanilla.MODID, version = BetterVanilla.VERSION)
-public class BetterVanilla {
+@Mod(modid = YAMMFUS.MODID, version = YAMMFUS.VERSION)
+public class YAMMFUS {
     public static final String MODID = "yammfus";
     public static final String VERSION = "1.1.1.2";
     
@@ -22,7 +22,7 @@ public class BetterVanilla {
     
     @EventHandler
     public void init(FMLInitializationEvent event) {
-    	MinecraftForge.EVENT_BUS.register(new BVEventHandler());
+    	MinecraftForge.EVENT_BUS.register(new YAEventHandler());
     	
     	if (ConfigHelper.recipeCobWeb) {
 			GameRegistry.addRecipe(new ItemStack(Blocks.web), "S S", " S ", "S S", 'S', Items.string);

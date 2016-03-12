@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "yammfus",
+  "name": "Yet Another Minecraft Mod For Uncraftable Stuff",
+  "description": "Adds in recipes for uncraftable stuff & some other things",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["ShadowCoder69"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
