@@ -1,0 +1,16 @@
+[
+{
+  "modid": "yammfus",
+  "name": "Yet Another Minecraft Mod For Uncraftable Stuff",
+  "description": "Adds in recipes for uncraftable stuff & some other things",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ShadowCoder69"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

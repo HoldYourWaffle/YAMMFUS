@@ -1,0 +1,32 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build.gradle
+gradle/
+.gradle
+
+# other
+eclipse
+run
+
+todo_dirt.txt
+DIRT
+buildMod.bat
+buildWorkspace.bat
+build-log.txt
+
+gradlew
+gradlew.bat
