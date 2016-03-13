@@ -74,7 +74,7 @@ public class ConfigHelper {
 			randCloneLily = randCloneLilyProp.getInt(10);
 		} catch (Exception e) {
 			logger.log(Level.ERROR,
-					"An error occured loading BetterVanilla config!");
+					"An error occured loading YAMMFUS config!");
 			e.printStackTrace();
 		} finally {
 			if (cfg.hasChanged()) {
