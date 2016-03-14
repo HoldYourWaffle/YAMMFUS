@@ -16,6 +16,7 @@ A minecraft mod that adds some things that should be in vanilla minecraft (not o
 1. The future
 
 ####Recipes
+####You can disable all recipes individually in the config!
 #####Cobweb
 ![alt text](http://i.imgur.com/Ok7Mm1N.png)
 
