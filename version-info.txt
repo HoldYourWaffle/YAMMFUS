@@ -1,4 +1,4 @@
 MC version: 1.9
 Used forge version: 1.9-12.16.0.1770
 FSC version: none (yet)
-Mod version: 1.9-v1.0
+Mod version: 1.9-v1.1
