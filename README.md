@@ -26,16 +26,15 @@ A minecraft mod that adds some things that should be in vanilla minecraft (not o
 #####Nametag
 ![alt-text](http://i.imgur.com/0CxqNYu.gif)
 
-####Horse armor
-#####Iron
+#####Iron horse armor
 ![alt-text](http://i.imgur.com/zFALmMA.png)
 
-#####Gold
+#####Gold horse armor
 ![alt-text](http://i.imgur.com/H7UiTEo.png)
 
-#####Diamond
+#####Diamond horse armor
 ![alt text](http://i.imgur.com/VZTmnfe.png)
 
-####God Apple
+#####God Apple
 ######(as of v1.1)
 ![alt text](http://i.imgur.com/vosSmN7.png)
