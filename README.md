@@ -26,6 +26,7 @@ A minecraft mod that adds some things that should be in vanilla minecraft (not o
 #####Nametag
 ![alt-text](http://i.imgur.com/0CxqNYu.gif)
 
+####Horse armor
 #####Iron
 ![alt-text](http://i.imgur.com/zFALmMA.png)
 
@@ -34,3 +35,7 @@ A minecraft mod that adds some things that should be in vanilla minecraft (not o
 
 #####Diamond
 ![alt text](http://i.imgur.com/VZTmnfe.png)
+
+####God Apple
+######(as of v1.1)
+![alt text](http://i.imgur.com/vosSmN7.png)

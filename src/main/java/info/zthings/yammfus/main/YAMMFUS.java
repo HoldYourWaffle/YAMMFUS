@@ -16,7 +16,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 @Mod(modid = YAMMFUS.MODID, version = YAMMFUS.VERSION)
 public class YAMMFUS {
     public static final String MODID = "yammfus";
-    public static final String VERSION = "1.0";
+    public static final String VERSION = "1.1";
     
     public static ClientProxy proxy = new ClientProxy();    
     
@@ -51,6 +51,10 @@ public class YAMMFUS {
 		
 		if (ConfigHelper.recipePackedIce) {
 			GameRegistry.addRecipe(new ItemStack(Blocks.packed_ice, 2), "II", "II", 'I', Blocks.ice);
+		}
+		
+		if (ConfigHelper.recipeGodApple) {
+			GameRegistry.addRecipe(new ItemStack(Items.golden_apple, 1, 1), "BBB", "BAB", "BBB", 'A', Items.apple, 'B', Blocks.gold_block);
 		}
 		
 		if (ConfigHelper.recipeChainArmor) {

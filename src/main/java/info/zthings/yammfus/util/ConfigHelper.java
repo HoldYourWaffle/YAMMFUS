@@ -12,40 +12,21 @@ public class ConfigHelper {
 
 	}
 
-	/*
-	 * public static boolean requireSavingStone; private static Property
-	 * requireSavingStoneProp;
-	 */
-
-	public static boolean recipeCobWeb;
-	public static boolean recipeHorseArmor;
-	public static boolean recipeSaddle;
-	public static boolean recipeNameTag;
-	public static boolean recipeChainArmor;
-	public static boolean recipePackedIce;
-	public static boolean recipeSlab_Fullblock;
-	public static boolean cloneLily;
+	public static boolean recipeCobWeb, recipeHorseArmor, recipeSaddle, recipeNameTag, recipeChainArmor, 
+		recipePackedIce, recipeSlab_Fullblock, cloneLily;
 	public static int randCloneLily;
-
-	private static Property recipeCobWebProp;
-	private static Property recipeHorseArmorProp;
-	private static Property recipeSaddleProp;
-	private static Property recipeNameTagProp;
-	private static Property recipeChainArmorProp;
-	private static Property recipePackedIceProp;
-	private static Property recipeSlab_FullblockProp;
-	private static Property cloneLilyProp;
-	private static Property randCloneLilyProp;
+	
+	private static Property recipeCobWebProp, recipeHorseArmorProp, recipeSaddleProp, recipeNameTagProp, 
+		recipeChainArmorProp, recipePackedIceProp, recipeSlab_FullblockProp, cloneLilyProp, randCloneLilyProp;
+	
+	/** SINCE v1.1 */
+	
+	public static boolean recipeGodApple;
+	
+	private static Property recipeGodAppleProp;
 
 	public static void setupConfig(Configuration cfg, Logger logger) {
 		try {
-			/*
-			 * requireSavingStoneProp = cfg.get("General", "requireSavingStone",
-			 * true); requireSavingStoneProp.comment =
-			 * "Whether or not the Saving Stone is required to get a Death Chest"
-			 * ; requireSavingStone = requireSavingStoneProp.getBoolean(false);
-			 */
-
 			recipeCobWebProp = cfg.get("Recipes", "recipeCobWeb", true);
 			recipeCobWeb = recipeCobWebProp.getBoolean(true);
 
@@ -72,6 +53,10 @@ public class ConfigHelper {
 				
 			randCloneLilyProp = cfg.get("Other", "randomCloneLilyPad", 10);
 			randCloneLily = randCloneLilyProp.getInt(10);
+			
+			/** SINCE v1.1 */
+			recipeGodAppleProp = cfg.get("Recipes", "recipeGodApple", true);
+			recipeGodApple = recipeGodAppleProp.getBoolean(true);
 		} catch (Exception e) {
 			logger.log(Level.ERROR,
 					"An error occured loading YAMMFUS config!");
