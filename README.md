@@ -12,8 +12,10 @@ A minecraft mod that adds some things that should be in vanilla minecraft (not o
 7. Turn 3 slabs back in 1 full block
 8. Emerald spawning in veins
 
-#####Comming
-1. The future
+#####Coming
+1. Shear chickens for feathers
+2. Editable signs
+3. Achievement (?)
 
 ####Recipes
 ####You can disable all recipes individually in the config!
