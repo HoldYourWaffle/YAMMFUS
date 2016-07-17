@@ -14,12 +14,13 @@ public class YAEventHandler {
 	@SubscribeEvent
 	public void onBonemealUse(BonemealEvent ev) {
 		if (ConfigHelper.cloneLily) {
-			if (ev.getBlock() == Blocks.WATERLILY) {
+			if (ev.getBlock().getBlock().equals(Blocks.WATERLILY)) {
 				Random rand = new Random();
 				
 				if (rand.nextInt(ConfigHelper.randCloneLily+1) == 0) {
 					BlockPos sPos = new BlockPos(ev.getPos());
-					while (true) { //CHECK crash when surrounded?
+					while (true) {
+						System.out.print("s");
 						int cX, cZ;
 						
 						if (rand.nextInt(2) == 0) cX = sPos.getX() - rand.nextInt(3);
