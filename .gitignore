@@ -14,8 +14,6 @@ out
 .idea
 
 # gradle
-build.gradle
-gradle/
 build/
 .gradle
 
@@ -26,8 +24,5 @@ run
 buildMod.bat
 buildWorkspace.bat
 build-log.txt
-
-gradlew
-gradlew.bat
 
 ignored/
